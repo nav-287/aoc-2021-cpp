@@ -1,9 +1,9 @@
-#ifndef DAY1_PUZZLE1_H
-#define DAY1_PUZZLE1_H
+#ifndef DAY2_PUZZLE1_H
+#define DAY2_PUZZLE1_H
 
 #include "../../BaseClasses/puzzle.h"
 
-namespace Day1
+namespace Day2
 {
   class Puzzle1 : public Puzzle
   {
@@ -15,5 +15,4 @@ namespace Day1
 
   };
 }
-
 #endif

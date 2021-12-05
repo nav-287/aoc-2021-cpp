@@ -1,19 +1,18 @@
-#ifndef DAY1_PUZZLE1_H
-#define DAY1_PUZZLE1_H
+#ifndef DAY2_PUZZLE2_H
+#define DAY2_PUZZLE2_H
 
 #include "../../BaseClasses/puzzle.h"
 
-namespace Day1
+namespace Day2
 {
-  class Puzzle1 : public Puzzle
+  class Puzzle2 : public Puzzle
   {
     std::string run(const std::string& input) override;
     
     public:
 
-    Puzzle1();
+    Puzzle2();
 
   };
 }
-
 #endif

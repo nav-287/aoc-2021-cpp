@@ -19,4 +19,9 @@ SET(LIBRARY_OUTPUT_PATH ../bin)
 add_executable(aoc 
   main.cpp
   BaseClasses/puzzle.cpp
-  Day1/puzzle1/puzzle1.cpp)
+  Day1/puzzle1/puzzle1.cpp
+  Day1/puzzle2/puzzle2.cpp
+  Day2/puzzle1/puzzle1.cpp
+  Day2/puzzle2/puzzle2.cpp
+  Day3/puzzle1/puzzle1.cpp
+  )

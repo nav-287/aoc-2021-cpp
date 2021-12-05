@@ -1,6 +1,7 @@
 #include "puzzle1.h"
 #include <string>
 #include <sstream>
+#include "../../BaseClasses/defines.h"
 
 namespace Day1
 {
@@ -22,7 +23,7 @@ namespace Day1
 
     if(!std::getline(ss, prevValueStr, '\n'))
     {
-      return false;
+      return "";
     }
     while(std::getline(ss, currValueStr, '\n'))
     {

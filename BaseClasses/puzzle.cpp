@@ -84,6 +84,7 @@ bool Puzzle::runBasicTest()
 
   std::string output = run(remainingStr);
 
+  PRINT("Basic output : " << output);
   return (output == expectedOutput);
 }
 
